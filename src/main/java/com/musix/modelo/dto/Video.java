@@ -7,6 +7,14 @@ public class Video {
 	String description;
 	int FK_usuario;
 	
+	/**
+	 * Constructor completo
+	 * @param id
+	 * @param link
+	 * @param titulo
+	 * @param description
+	 * @param FK_usuario
+	 */
 	public Video(int id, String link, String titulo, String description, int FK_usuario) {
 		super();
 		this.id = id;
